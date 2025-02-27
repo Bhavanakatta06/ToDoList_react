@@ -1,0 +1,38 @@
+.todoitems{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    align-items: center;
+    background-color: rgba(244, 198, 154, 0.945);
+    margin-bottom: 10px;
+    border-radius: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.todoitems-container{
+    display: flex;
+    
+}
+.todoitems-text{
+    padding-left: 16px;
+    font-size: 20px;
+}
+.nontick_icon{
+    margin-left: 80px;
+    width: 25px;
+    height: 25px;
+}
+.tick_icon{
+    margin-left: 80px;
+    width: 25px;
+    height: 25px;
+}
+.del_icon{
+    margin-right: 80px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.line-through{
+    text-decoration: line-through;
+}
